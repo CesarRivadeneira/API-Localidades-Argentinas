@@ -1,0 +1,56 @@
+.container {
+    margin: 50px auto;
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 24px;
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: 2px solid #6d1385;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+}
+
+#provinciasSection, #municipiosSection, #localidadesSection, #buttonSection {
+    width: calc(20% - 10px);
+    margin-right: 10px;
+}
+
+#buttonSection {
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+#confirmButton {
+    background-color: #6d1385;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#confirmButton:hover {
+    background-color: #0c8c19;
+}

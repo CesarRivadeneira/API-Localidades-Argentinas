@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+   <!-- CHARSET -->
+   <meta charset="UTF-8">
+   <!-- IE-EDGE -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- VIEWPORT -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- DESCRIPTION -->
+   <meta name="description" content="">
+   <!-- AUTHOR -->
+   <meta name="author" content="Rivadeneira Cesar orig by Daniel Salinas">
+   <!-- TITTLE -->
+   <title>API Localidades Argentinas </title>
+   <!-- STYLES -->
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <img src="https://flagcdn.com/160x120/ar.png" alt="Argentina">
+    <h2>Consumiendo API de localidades Argentinas</h2>
+
+    <div id="provinciasSection">
+        <label for="selectProvincias">Provincias</label>
+        <select id="selectProvincias">
+            <option value="">Elige una provincia</option>
+        </select>
+    </div>
+
+    <div id="municipiosSection" style="display: none;">
+        <label for="selectMunicipios">Municipios</label>
+        <select id="selectMunicipios">
+            <option value="">Elige un municipio</option>
+        </select>
+    </div>
+
+    <div id="localidadesSection" style="display: none;">
+        <label for="selectLocalidades">Localidades</label>
+        <select id="selectLocalidades">
+            <option value="">Elige una localidad</option>
+        </select>
+    </div>
+
+    <div id="buttonSection" style="display: none;">
+        <button id="confirmButton">Seleccionar</button>
+    </div>
+</div>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
